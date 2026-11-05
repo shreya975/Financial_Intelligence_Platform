@@ -1,214 +1,407 @@
-# ◈ FinSight AI – Financial Intelligence Platform
+# ◈ FinSight AI — Financial Intelligence Platform
 
-An interactive financial intelligence platform that brings global stock market analytics and personalized mutual fund recommendations together in one place. Built with Python and Streamlit, FinSight AI combines financial data analysis, quantitative risk assessment, goal-based investment planning, and interactive visualizations to make financial insights easier to understand.
+<div align="center">
 
-<p align="center">
-  <a href="https://financialintelligenceplatform-ixnjnesparf33mfmccwhy4.streamlit.app/">
-    <strong>🚀 Live Demo</strong>
-  </a>
-  &nbsp; | &nbsp;
-  <a href="https://github.com/shreya975/Financial_Intelligence_Platform">
-    <strong>💻 GitHub Repository</strong>
-  </a>
-</p>
+## AI-Powered Financial Intelligence for Smarter Investment Decisions
+
+Explore global stock markets manually or generate a personalized mutual fund investment path using structured risk analysis, goal-based planning, quantitative metrics, and interactive financial analytics.
+
+[**🚀 Live Demo**](https://financialintelligenceplatform-ixnjnesparf33mfmccwhy4.streamlit.app/) | [**💻 GitHub Repository**](https://github.com/shreya975/Financial_Intelligence_Platform)
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-blueviolet?style=for-the-badge&logo=plotly)
+![Pandas](https://img.shields.io/badge/Pandas-Analytics-black?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Computing-blue?style=for-the-badge&logo=numpy)
+![Finance](https://img.shields.io/badge/Financial%20Analytics-Intelligence-green?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📌 Overview
+# 🌍 Project Overview
 
-FinSight AI is designed to simplify financial analysis by combining two important areas of investing: stock market intelligence and mutual fund portfolio planning.
+Financial decisions often require users to combine market data, historical performance, risk analysis, investment goals, and portfolio considerations across different tools.
 
-Instead of switching between multiple platforms, users can explore stock market performance, analyze historical trends, understand investment risks, and generate personalized mutual fund strategies through a single interactive application.
+**FinSight AI** brings these capabilities together into a single interactive financial intelligence platform.
 
-The platform is divided into three main sections:
+The platform provides two complementary investment journeys:
 
-- **FinSight Home:** A unified landing page for navigating the platform.
-- **Stock Intelligence:** An interactive dashboard for exploring global stock market data and performance.
-- **Mutual Fund Intelligence:** A quantitative recommendation engine that evaluates investor risk profiles and generates goal-oriented mutual fund portfolios.
+- 📈 **Stock Intelligence** — Explore global stocks, markets, trends, performance, and financial metrics.
+- 🤖 **Mutual Fund Intelligence** — Assess investor risk, define goals, generate asset allocation, filter funds, and rank recommendations.
 
-## ✨ Key Features
+The platform is built with **Python, Streamlit, Pandas, NumPy and Plotly**, with an interactive financial dashboard.
 
-### 📈 1. Global Stock Intelligence
+> **The goal is not simply to display financial data — but to turn it into structured, understandable investment intelligence.**
 
-- Explore 300+ stocks across 20 countries.
-- Filter stocks based on country and stock name.
-- Analyze historical stock price movements.
-- Interactive date-range selection.
-- Track opening, closing, high and low prices.
-- Calculate daily returns and rolling volatility.
-- Analyze 50-day moving averages.
-- Compare stock performance through interactive visualizations.
-- View market-level statistics and stock performance metrics.
+---
 
-### 💰 2. Mutual Fund Recommendation Engine
+# 🚀 Key Features
 
-- Personalized investor risk assessment through a questionnaire.
-- Five investor risk categories:
-  - Very Conservative
-  - Conservative
-  - Moderate
-  - Aggressive
-  - Very Aggressive
-- Goal-based investment planning.
-- Investment horizon-based asset allocation.
-- Equity, Debt and Hybrid fund classification.
-- Quantitative mutual fund ranking.
-- Fund quality and risk compatibility assessment.
-- Portfolio construction based on investment capacity.
+## 📈 Stock Intelligence
 
-### 📊 3. Portfolio Analytics & Wealth Planning
+Explore global markets through an interactive analytics dashboard.
 
-- Personalized monthly SIP allocation.
-- Mutual fund selection based on quantitative scores.
-- Risk-adjusted portfolio recommendations.
-- Portfolio quality evaluation.
-- SIP and lump-sum investment calculations.
-- Future wealth projections.
-- Conservative, expected and optimistic return scenarios.
-- Target-based SIP calculation.
-- Interactive financial charts and visualizations.
+### Market Analytics
 
-## 🧠 How the Recommendation Engine Works
+- Dynamic stock and country filtering
+- Historical price analysis
+- OHLCV market data
+- Daily return analysis
+- 20-day and 50-day moving averages
+- Rolling volatility analysis
+- Stock performance comparison
+- Volume analysis
+- Country-level market statistics
 
-The mutual fund recommendation engine follows a structured quantitative approach:
+### 📊 Interactive Visualizations
 
-1. **Investor Profiling:** Evaluates investor preferences, financial stability, investment experience and risk tolerance.
-2. **Goal Analysis:** Considers financial goals and investment duration.
-3. **Asset Allocation:** Determines an appropriate allocation across Equity, Debt and Hybrid categories.
-4. **Risk Adjustment:** Modifies the allocation based on the investor's risk profile.
-5. **Fund Ranking:** Evaluates funds using risk compatibility, fund quality, historical returns, Sharpe ratio, Sortino ratio and expense ratio.
-6. **Portfolio Construction:** Selects suitable funds and calculates the monthly SIP distribution.
-7. **Wealth Projection:** Estimates potential investment growth over the selected investment horizon.
+- Price charts
+- Candlestick analysis
+- Performance comparisons
+- Volume analytics
+- Trend analysis
+- Market overview charts
+- Country-level comparisons
 
-## 🛠️ Tech Stack
+## 🤖 Mutual Fund Recommendation Engine
 
-| Category | Technologies |
+A structured quantitative engine designed to convert investor preferences into a personalized mutual fund strategy.
+
+### 🧠 Risk Profiling
+
+The engine evaluates investor preferences using structured behavioral and financial questions, including:
+
+- Reaction to investment losses
+- Investment priorities
+- Previous investment experience
+- Income stability
+- Comfort with market fluctuations
+- Financial preferences
+
+### 🎯 Goal-Based Planning
+
+The recommendation flow considers:
+
+- Investment objective
+- Investment horizon
+- Investment capacity
+- Risk tolerance
+- Desired financial outcome
+
+### 💰 Portfolio Construction
+
+The engine follows a structured pipeline:
+
+```text
+Investor Inputs
+      ↓
+Risk Assessment
+      ↓
+Risk Score
+      ↓
+Goal + Investment Horizon
+      ↓
+Asset Allocation
+      ↓
+Fund Filtering
+      ↓
+Risk Compatibility
+      ↓
+Fund Quality Evaluation
+      ↓
+Portfolio Ranking
+      ↓
+Personalized Recommendation
+```
+
+The recommendation engine follows a **rule-based quantitative approach rather than relying on a machine-learning prediction model**.
+
+### 📐 Quantitative Metrics
+
+- Standard Deviation
+- Beta
+- Sharpe Ratio
+- Sortino Ratio
+- 3-Year Returns
+- Expense Ratio
+- Fund Quality Score
+- Risk Score
+
+---
+
+# 🧠 Business Questions Answered
+
+FinSight AI helps users explore questions such as:
+
+### Stock Intelligence
+
+- Which stocks are performing strongly?
+- How has a stock performed historically?
+- Which markets have higher trading activity?
+- How volatile is a stock?
+- How do stocks compare across countries?
+- What are the recent price and volume trends?
+
+### Mutual Fund Intelligence
+
+- What is my investment risk profile?
+- How should my portfolio be allocated?
+- Which funds match my risk level?
+- How does investment horizon affect the strategy?
+- Which funds rank higher based on quantitative metrics?
+- What could my potential wealth trajectory look like?
+
+---
+
+# 🔄 How It Works
+
+## 01 — Choose Your Path
+
+Choose between:
+
+**📈 Manual Mode**
+
+Explore stocks, markets, countries, trends, and analytics.
+
+**🤖 Automation Mode**
+
+Provide your financial goals, investment horizon, capacity, and risk preferences.
+
+## 02 — Analyze
+
+The platform processes the selected inputs and presents:
+
+- Market analytics
+- Financial metrics
+- Interactive visualizations
+- Risk assessment
+- Portfolio allocation
+- Fund analysis
+- Quantitative rankings
+
+## 03 — Understand
+
+Convert the results into a structured view of:
+
+**Market → Risk → Goal → Allocation → Investment Options**
+
+---
+
+# 📊 Platform Capabilities
+
+| Capability | Description |
 |---|---|
-| Programming Language | Python |
-| Frontend & Dashboard | Streamlit |
-| Data Processing | Pandas, NumPy |
-| Data Visualization | Plotly, Matplotlib, Seaborn |
-| Financial Data | yfinance |
-| Recommendation Engine | Python-based quantitative scoring and ranking |
-| Data Storage | CSV datasets |
+| 📈 Stock Intelligence | Global stock market exploration |
+| 🌍 Global Analytics | Country-level market analysis |
+| 📊 Interactive Charts | Plotly-powered financial visualizations |
+| 🧠 Risk Profiling | Structured investor risk assessment |
+| 🎯 Goal-Based Planning | Investment planning based on goals |
+| 💰 Fund Recommendations | Quantitative mutual fund ranking |
+| 📐 Financial Metrics | Risk and performance measurements |
+| 📊 Wealth Projection | Potential investment outcome visualization |
+| 🎨 Interactive UI | Financial dashboard experience |
 
-## 🏗️ Project Structure
+---
+
+# 📂 Project Structure
 
 ```text
 Financial_Intelligence_Platform/
 │
 ├── app.py
-│   └── Main Streamlit application
-│       ├── Home Page
-│       ├── Stock Intelligence
-│       └── Mutual Fund Intelligence
 │
 ├── mf_engine.py
-│   └── Mutual Fund Recommendation Engine
-│       ├── Investor Risk Profiling
-│       ├── Goal-Based Allocation
-│       ├── Fund Ranking
-│       ├── Portfolio Construction
-│       └── Wealth Projection
-│
-├── MF_India_AI_Risk_Engine.csv
-│   └── Mutual Fund Risk and Analytics Dataset
 │
 ├── final_data.csv
-│   └── Financial Data
+│
+├── mutual_funds.csv
 │
 ├── requirements.txt
-│   └── Project Dependencies
 │
 └── README.md
 ```
 
-## ⚙️ Installation & Setup
+---
 
-Follow these steps to run FinSight AI locally.
+# 📊 Data & Analytics
 
-**1. Clone the repository**
+## Stock Market Data
+
+The Stock Intelligence module works with historical market data containing fields such as:
+
+| Attribute | Description |
+|---|---|
+| Date | Trading date |
+| Open | Opening price |
+| High | Highest price |
+| Low | Lowest price |
+| Close | Closing price |
+| Volume | Trading volume |
+| Stock Name | Company identifier |
+| Country | Market/country |
+
+The application derives additional analytical fields including **Daily Return, MA20, MA50 and Volatility** during data processing.
+
+## Mutual Fund Data
+
+The recommendation module evaluates mutual funds using quantitative characteristics such as:
+
+- Risk
+- Returns
+- Standard deviation
+- Beta
+- Sharpe ratio
+- Sortino ratio
+- Expense ratio
+- Fund quality
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Core application development |
+| **Streamlit** | Interactive web application |
+| **Pandas** | Data processing and analysis |
+| **NumPy** | Numerical computation |
+| **Plotly** | Interactive financial visualizations |
+| **CSS3** | Custom dashboard styling |
+
+---
+
+# 🎨 Dashboard Experience
+
+FinSight AI focuses on providing an interactive financial dashboard experience featuring:
+
+- 🌑 Dark-themed interface
+- ✨ Modern dashboard components
+- 📊 Interactive KPI components
+- 📈 Financial charts
+- 🎯 Structured recommendation journey
+- 🔄 Navigation between different modules
+
+---
+
+# ⚙️ Installation
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/shreya975/Financial_Intelligence_Platform.git
+```
 
+### 2. Move into the project directory
+
+```bash
 cd Financial_Intelligence_Platform
 ```
 
-**2. Create a virtual environment**
-
-```bash
-python -m venv venv
-```
-
-**3. Activate the environment**
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-macOS / Linux:
-
-```bash
-source venv/bin/activate
-```
-
-**4. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**5. Run the application**
+### 4. Run the application
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
-**6. Open in your browser**
+### 5. Open in browser
 
 ```text
 http://localhost:8501
 ```
 
-## 📊 What Makes This Project Interesting?
+---
 
-FinSight AI focuses on bringing financial analytics and investment planning into a single application.
+# 🔬 Recommendation Engine
 
-Some important aspects of the implementation include:
+The mutual fund module follows a transparent quantitative pipeline instead of relying on a black-box ML prediction model.
 
-- Combining global stock analytics and mutual fund intelligence in one Streamlit application.
-- Building a weighted quantitative investor risk-scoring mechanism.
-- Implementing goal-based asset allocation with risk adjustments.
-- Developing a multi-factor fund ranking algorithm.
-- Calculating SIP and lump-sum investment projections.
-- Using interactive visualizations to make financial data easier to interpret.
+The recommendation process considers:
 
-## 🔮 Future Enhancements
+- Investor risk profile
+- Investment objectives
+- Investment horizon
+- Asset allocation
+- Risk compatibility
+- Fund quality
+- Category-relative returns
+- Sharpe and Sortino ratios
+- Expense ratio
 
-- Integration of additional real-time financial data sources.
-- Advanced machine learning-based stock forecasting.
-- Portfolio optimization using modern portfolio theory.
-- News-based financial sentiment analysis.
-- Automated portfolio monitoring and alerts.
-- More advanced personalized investment insights.
-
-## ⚠️ Disclaimer
-
-FinSight AI is an educational financial analytics and investment planning project. Portfolio recommendations and projected returns are based on quantitative models and illustrative assumptions. They do not guarantee future performance and should not be considered professional financial advice.
-
-## 👩‍💻 Author
-
-**Shreya Mahajan**
-
-Interested in Data Science, Financial Analytics, Machine Learning and building practical data-driven applications.
-
-- GitHub: https://github.com/shreya975
-- Project Repository: https://github.com/shreya975/Financial_Intelligence_Platform
-- Live Application: https://financialintelligenceplatform-ixnjnesparf33mfmccwhy4.streamlit.app/
+The final portfolio is generated by combining these quantitative factors into a structured recommendation process.
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+# ⚠️ Model Limitations
+
+FinSight AI is an **educational and quantitative research platform**, not a registered financial advisory service.
+
+Generated recommendations and projections are based on available data and model assumptions. They do not guarantee future performance and should not be considered professional financial advice.
+
+---
+
+# 🔥 Future Improvements
+
+Potential extensions include:
+
+- 📡 Real-time market data
+- 📰 Financial news sentiment analysis
+- 🤖 ML-based forecasting models
+- 📉 Advanced risk metrics
+- 📊 Portfolio optimization
+- 🔔 Price and portfolio alerts
+- 🧠 Explainable recommendation scoring
+- 📱 Mobile-focused interface
+- 🔐 User portfolio tracking
+- ☁️ Persistent cloud-based portfolios
+
+---
+
+# 👩‍💻 About Me
+
+## **Shreya Mahajan**
+
+Aspiring Data Scientist | Python Developer | Financial Analytics Enthusiast
+
+Interested in building data-driven products across:
+
+- 📊 Data Analytics
+- 💰 Financial Intelligence
+- 🤖 Machine Learning
+- 🐍 Python Development
+- 📈 Interactive Dashboards
+- 🧠 AI-Powered Applications
+
+**GitHub:** [shreya975](https://github.com/shreya975)
+
+---
+
+# ⭐ Support
+
+If you find **FinSight AI** interesting:
+
+⭐ Star the repository  
+🍴 Fork the project  
+💬 Share feedback  
+🐛 Report issues  
+💡 Suggest improvements
+
+---
+
+<div align="center">
+
+### ◈ FinSight AI
+
+**Explore the market. Understand the data. Build a smarter investment path.**
+
+Built with Python • Streamlit • Pandas • NumPy • Plotly
+
+[🚀 Live Demo](https://financialintelligenceplatform-ixnjnesparf33mfmccwhy4.streamlit.app/) · [💻 GitHub](https://github.com/shreya975/Financial_Intelligence_Platform)
+
+</div>
